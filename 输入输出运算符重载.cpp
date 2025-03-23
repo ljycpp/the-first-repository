@@ -25,8 +25,8 @@ istream& operator>>(istream& ip, A& a)
 int main()
 {
 	A a(1, 2);
-	cout << "³õÊ¼aµÄÖµÎª:" << a << endl;
-	cout << "¸øa¸³Öµ" << endl;
+	cout << "åˆå§‹açš„å€¼ä¸º:" << a << endl;
+	cout << "ç»™aèµ‹å€¼" << endl;
 	cin >> a;
-	cout << "¸³ÖµºóaµÄÖµÎª£º" << a << endl;
+	cout << "èµ‹å€¼åaçš„å€¼ä¸ºï¼š" << a << endl;
 }
