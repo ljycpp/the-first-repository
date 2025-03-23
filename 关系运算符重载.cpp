@@ -33,15 +33,15 @@ int main()
 	A a2(3, 2);
 	if (a1 > a2)
 	{
-		cout << "a1的x大于a2的x" << endl;
+		cout << "a1鐨剎澶т簬a2鐨剎" << endl;
 	}
 	else if (a1 < a2)
 	{
-		cout << "a1的x小于a2的x" << endl;
+		cout << "a1鐨剎灏忎簬a2鐨剎" << endl;
 	}
 	if (a1 == a2)
 	{
-		cout << "a1的y都等于a2的y" << endl;
+		cout << "a1鐨剏閮界瓑浜巃2鐨剏" << endl;
 	}
 	return 0;
 }
