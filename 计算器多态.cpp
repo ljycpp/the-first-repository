@@ -24,7 +24,7 @@ public:
 int main()
 {
 	AbstractCalculator* a = new addCalculator;
-	a->m_a = 10;
+	a->m_a = 10;//使用指针访问private数据会破坏封装，不建议
 	a->m_b = 20;
 	cout << "m_a" << "+" << "m_b =" << a->getRestult();
 }
